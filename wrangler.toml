@@ -7,8 +7,9 @@ compatibility_flags = ["nodejs_compat"]
 kv_namespaces = [
   { binding = "SUBLINK_KV", id = "021b503ae8c64bdabdc580b8e1529d8e" }
 ]
-{
-  "observability": {
-    "enabled": false
-  }
-}
+[observability]
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+invocation_logs = true
+persist = true
