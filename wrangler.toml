@@ -5,7 +5,7 @@ compatibility_date = "2024-07-24"
 compatibility_flags = ["nodejs_compat"]
 
 kv_namespaces = [
-  { binding = "SUBLINK_KV", id = "021b503ae8c64bdabdc580b8e1529d8e" }
+  { binding = "SUBLINK_KV", id = "80b326bcb4ec42e0bb0ba74939ccb187" }
 ]
 [observability]
 [observability.logs]
